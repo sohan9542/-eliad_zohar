@@ -1,0 +1,47 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.full_bg {
+    background: url("./Alpha/main1.png");
+    background-size: cover;
+    margin-left: -2px;
+}
+
+.bg_hero {
+    background: url("./Alpha/Bankground\ element\ 3.svg");
+    background-size: contain;
+    
+}
+
+.border_button {
+    background: linear-gradient(to right, #df3fff9c, #4806fea1);
+}
+.tool_tip{
+    padding: 5px 14px ;
+    border-radius: 12px;
+    border: 1px solid #e253ff4b;
+}
+
+.bg_opensea{
+    background: linear-gradient(to right, #C89AFF, #6E53FE);
+}
+
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px !important;
+
+    }
+}
