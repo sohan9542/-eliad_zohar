@@ -163,7 +163,7 @@ const Topbar = ({modalShow, setModalShow}) => {
                 </a>
               </div>
               <div className=" border_button w-80 items-center justify-center flex p-1 rounded-3xl ">
-                <button className=" px-14 py-3 w-full rounded-3xl  text-sm bg-gray-900 hover:bg-gray-800 text-white">
+                <button   onClick={() => setModalShow(true)} className=" px-14 py-3 w-full rounded-3xl  text-sm bg-gray-900 hover:bg-gray-800 text-white">
                   Mint now
                 </button>
               </div>
