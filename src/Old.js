@@ -195,7 +195,7 @@ function Mint() {
 
   return (
     <>
-      <div className="full_bg text-white p-8 flex items-center justify-center flex-col">
+      <div className=" text-white p-8 flex items-center justify-center flex-col">
         <s.TextTitle
           style={{
             textAlign: "center",

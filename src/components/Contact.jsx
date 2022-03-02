@@ -51,8 +51,8 @@ const Contact = () => {
               <RiArrowUpSLine className="text-white w-7 h-7" />
             </div>
           </div>
-          <div className="absolute z-20" style={{ top: "50px", left: "38%" }}>
-            <h2 className=" font-bold text-white">Join our community</h2>
+          <div className="absolute z-20" style={{ top: "50px", left: "39%" }}>
+            <p className=" font-bold text-3xl text-white">Join our community</p>
           </div>
           <div
             className="absolute z-20 w-96"
@@ -106,7 +106,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="absolute z-20" style={{ top: "50px", left: "24%" }}>
-            <h2 className=" font-bold text-white">Join our community</h2>
+            <p className=" font-bold text-3xl text-white">Join our community</p>
           </div>
           <div
             className="absolute z-20 w-80"

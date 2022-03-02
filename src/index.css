@@ -16,7 +16,7 @@
 .full_bg {
     background: url("./Alpha/main1.png");
     background-size: cover;
-    margin-left: -2px;
+    
 }
 
 .bg_hero {
@@ -33,7 +33,9 @@
 .border_button {
     background: linear-gradient(to right, #F269F7, #4806fea1);
 }
-
+.btn-close{
+    color: white!important;
+}
 .tool_tip {
     padding: 5px 14px;
     border-radius: 12px;

@@ -10,13 +10,16 @@ function MyVerticallyCenteredModal(props) {
       size="md"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      
     >
+      <div className="full_bg">
       <Modal.Header closeButton>
        
-      </Modal.Header>
-      <Modal.Body>
-        <Mint/>
-      </Modal.Body>
+       </Modal.Header>
+       <Modal.Body>
+         <Mint/>
+       </Modal.Body>
+      </div>
     </Modal>
   );
 }
