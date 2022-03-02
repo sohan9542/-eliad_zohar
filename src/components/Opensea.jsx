@@ -2,25 +2,29 @@ import React from "react";
 import { FaHorseHead } from "react-icons/fa";
 import opensea from "../Alpha/opensea.png";
 import openseaIcon from "../Alpha/OpenSea Icon.svg";
+import cmm from "../Alpha/Communtiy Element.svg";
 const Opensea = () => {
   return (
     <div className="w-full flex items-center justify-center mt-16">
       <div className="container">
-        <div className="grid grid-cols-1 lg:grid-cols-2 ">
-          <div className="w-full flex rounded-3xl overflow-hidden items-center justify-center">
-            <div className=" px-7  bg_opensea rounded-3xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-28">
+          <div className="w-full flex rounded-3xl items-center justify-center">
+            <div className=" px-7  bg_opensea rounded-3xl relative">
               <img src={opensea} alt="" />
               <div className=" flex w-full items-center justify-center">
               <div className=" border_button p-1 rounded-3xl my-3">
-                <button className=" px-11 gap-2 py-3 rounded-3xl flex items-center  text-lg bg-gray-900 hover:bg-gray-800 text-white">
+                <button className=" px-11 gap-2 py-3 rounded-3xl text-sm flex items-center   bg-gray-900 hover:bg-gray-800 text-white">
                 <img src={openseaIcon} className="w-5 h-5" alt="" /> OpenSea
                 </button>
               </div>
               </div>
+              <div className=" absolute h-20 w-20 z-30 lg:hidden" style={{top:"-30px", right:"20px"}}>
+                <img src={cmm} alt="" />
+              </div>
             </div>
           </div>
           <div className=" pt-6">
-            <h1 className="text-5xl text-white">Horse #1522</h1>
+            <h1 className="text-5xl font-light text-white">Horse #1522</h1>
             <p className="text-sm text-white font-light pt-3">
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo a

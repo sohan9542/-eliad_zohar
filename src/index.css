@@ -22,26 +22,74 @@
 .bg_hero {
     background: url("./Alpha/Bankground\ element\ 3.svg");
     background-size: contain;
-    
+
+}
+
+.bg_roadmap {
+    background: url("./Alpha/Roadmap Bankgorund elements.svg");
+    background-size: cover;
 }
 
 .border_button {
-    background: linear-gradient(to right, #df3fff9c, #4806fea1);
+    background: linear-gradient(to right, #F269F7, #4806fea1);
 }
-.tool_tip{
-    padding: 5px 14px ;
+
+.tool_tip {
+    padding: 5px 14px;
     border-radius: 12px;
     border: 1px solid #e253ff4b;
 }
 
-.bg_opensea{
+.bg_opensea {
     background: linear-gradient(to right, #C89AFF, #6E53FE);
 }
 
+.card_bg {
+    background: #250C79;
+
+}
+
+.accordion {
+    background: transparent !important;
+    color: white !important;
+}
+
+.accordion-item {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.281) !important;
+}
+
+.accordion-header {
+    background: transparent !important;
+    color: white !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.281) !important;
+    font-size: 12px;
+}
+
+.accordion-button {
+    background: transparent !important;
+    color: white !important;
+}
+
+a {
+    text-decoration: none !important;
+}
 
 @media (min-width: 1280px) {
     .container {
-        max-width: 1280px !important;
+        max-width: 1140px !important;
 
     }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px !important;
+
+    }
+}
+
+.bg_contact{
+    background: url("./Alpha/Community\ Box.png");
+    background-size: cover;
 }
