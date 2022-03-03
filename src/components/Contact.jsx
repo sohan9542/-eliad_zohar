@@ -16,7 +16,7 @@ const Contact = () => {
         window.scrollTo(0, value)
       }
   return (
-    <div className=" w-full pt-32">
+    <div className=" w-full pt-32 px-1">
       <div className="flex items-center flex-col justify-center">
         <div className="container hidden lg:flex relative  items-center justify-center">
           <img
@@ -76,7 +76,7 @@ const Contact = () => {
             <AiFillYoutube className=" cursor-pointer text-white h-5 w-5" />
           </div>
         </div>
-        <div className="container flex bg_contact h-80 rounded-3xl w-full lg:hidden relative  items-center justify-center">
+        <div className="container  flex bg_contact h-80 overflow-x-hidden rounded-3xl w-full lg:hidden relative  items-center justify-center">
        
           <div
             className=" absolute w-32 h-32 z-20 hidden lg:block"
@@ -106,7 +106,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="absolute z-20" style={{ top: "50px", left: "24%" }}>
-            <p className=" font-bold text-3xl text-white">Join our community</p>
+            <p className=" font-bold text-2xl text-white">Join our community</p>
           </div>
           <div
             className="absolute z-20 w-80"
