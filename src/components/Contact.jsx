@@ -16,7 +16,7 @@ const Contact = () => {
         window.scrollTo(0, value)
       }
   return (
-    <div className=" w-full pt-32 px-1">
+    <div className=" w-full pt-32">
       <div className="flex items-center flex-col justify-center">
         <div className="container hidden lg:flex relative  items-center justify-center">
           <img
@@ -76,9 +76,10 @@ const Contact = () => {
             <AiFillYoutube className=" cursor-pointer text-white h-5 w-5" />
           </div>
         </div>
-        <div className="container  flex bg_contact h-80 overflow-x-hidden rounded-3xl w-full lg:hidden relative  items-center justify-center">
+        <div className="container ">
        
-          <div
+        <div className="flex  bg_contact h-80  rounded-3xl w-full  lg:hidden relative  items-center justify-center">
+        <div
             className=" absolute w-32 h-32 z-20 hidden lg:block"
             style={{ top: "50px", right: "-60px" }}
           >
@@ -129,6 +130,7 @@ const Contact = () => {
             <AiOutlineInstagram className=" cursor-pointer text-white h-5 w-5" />
             <AiFillYoutube className=" cursor-pointer text-white h-5 w-5" />
           </div>
+        </div>
         </div>
         <p className=" text-xs text-white w-full text-center font-light py-8">© 2022 - Monster Sheltar, All right reserved.</p>
       </div>
