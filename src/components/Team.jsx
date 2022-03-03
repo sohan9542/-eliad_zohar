@@ -28,7 +28,7 @@ const Team = () => {
                   <p className="text-xs text-white w-full text-center font-light">
                     Creative Director
                   </p>
-                  <div className=" w-full flex items-center justify-center gap-2">
+                  <div className=" w-full flex items-center justify-center gap-2 mt-2">
                     <AiOutlineTwitter className=" cursor-pointer text-white h-5 w-5" />
                     <BsWhatsapp className=" cursor-pointer text-white h-5 w-5" />
                     <FaTiktok className=" cursor-pointer text-white h-5 w-5" />
@@ -65,7 +65,7 @@ const Team = () => {
                   <p className="text-xs text-white w-full text-center font-light">
                     Creative Director
                   </p>
-                  <div className=" w-full flex items-center justify-center gap-2">
+                  <div className=" w-full flex items-center justify-center gap-2 mt-2">
                     <AiOutlineTwitter className=" cursor-pointer text-white h-5 w-5" />
                     <BsWhatsapp className=" cursor-pointer text-white h-5 w-5" />
                     <FaTiktok className=" cursor-pointer text-white h-5 w-5" />
@@ -102,7 +102,7 @@ const Team = () => {
                   <p className="text-xs text-white w-full text-center font-light">
                     Creative Director
                   </p>
-                  <div className=" w-full flex items-center justify-center gap-2">
+                  <div className=" w-full flex items-center justify-center gap-2 mt-2">
                     <AiOutlineTwitter className=" cursor-pointer text-white h-5 w-5" />
                     <BsWhatsapp className=" cursor-pointer text-white h-5 w-5" />
                     <FaTiktok className=" cursor-pointer text-white h-5 w-5" />
@@ -119,7 +119,7 @@ const Team = () => {
                   <p className="text-xs text-white   font-light">
                     Creative Director
                   </p>
-                  <div className=" w-full flex items-center justify-center gap-2">
+                  <div className=" w-full flex items-center justify-center gap-2 mt-2">
                     <AiOutlineTwitter className=" cursor-pointer text-white h-5 w-5" />
                     <BsWhatsapp className=" cursor-pointer text-white h-5 w-5" />
                     <FaTiktok className=" cursor-pointer text-white h-5 w-5" />
