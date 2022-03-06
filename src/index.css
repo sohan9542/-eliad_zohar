@@ -100,5 +100,6 @@ a {
 .bg_contact{
     background: url("./Alpha/Community\ Box.png");
     background-size: cover;
-
+    border-top-right-radius: 12%;
+    border-bottom-right-radius: 12%;
 }

@@ -12,7 +12,7 @@ const Team = () => {
   return (
     <div className=" w-full bg_hero pt-80 lg:pt-0">
       <div className="flex items-center justify-center">
-        <div className="container">
+        <div className="container overflow-x-hidden overflow-y-auto">
           <h1 className="text-5xl text-white w-full font-light text-center pb-8">
             Meet the team
           </h1>
@@ -36,7 +36,7 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-              <div style={{top:"-11px"}} className="absolute block lg:hidden w-full h-full  left-6 z-20 p-4">
+              <div style={{top:"-11px"}} className="absolute block lg:hidden w-full h-full  left-8 z-20 p-4">
                 <img src={team1} alt="" />
                 <div style={{marginLeft:"-45px"}} className=" pt-8 flex items-center justify-center flex-col gap-2">
                   <h6 className="  text-white text-lg font-light">
@@ -73,7 +73,7 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-              <div style={{top:"-11px"}} className="absolute block lg:hidden w-full h-full  left-6 z-20 p-4">
+              <div style={{top:"-12px"}} className="absolute block lg:hidden w-full h-full  left-8 z-20 p-4">
                 <img src={team2} alt="" />
                 <div style={{marginLeft:"-45px"}} className=" pt-8 flex items-center justify-center flex-col gap-2">
                   <h6 className="  text-white text-lg font-light">
@@ -110,7 +110,7 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-              <div style={{top:"10px"}} className="absolute block lg:hidden w-full h-full  left-6 z-20 p-4">
+              <div style={{top:"10px"}} className="absolute block lg:hidden w-full h-full  left-9 z-20 p-4">
                 <img src={team3} alt="" />
                 <div style={{marginLeft:"-45px"}} className=" pt-8 flex items-center justify-center flex-col gap-2">
                   <h6 className="  text-white text-lg font-light">
